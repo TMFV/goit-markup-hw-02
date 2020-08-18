@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<!--goit-markup-hw-01 DENYS TYMOFIEIEV-->
+<!--goit-markup-hw-02 DENYS TYMOFIEIEV-->
+<!--17-08-2020-->
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -7,6 +8,14 @@
     <title>Web Studio</title>
     <!--Connect stylesheet file-->
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -14,23 +23,26 @@
       <nav>
         <!--Logo links in the header-->
         <a href="/">
-          <p><span>Web</span>Studio</p>
+          <p class="logo">
+            <span class="logo-blue">Web</span
+            ><span class="logo-black">Studio</span>
+          </p>
         </a>
         <!--Navigation list links in header-->
         <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li class="list"><a href="">Студия</a></li>
+          <li class="list"><a href="./portfolio.html">Портфолио</a></li>
+          <li class="list"><a href="">Контакты</a></li>
         </ul>
       </nav>
       <!--Contacts links list in the header-->
       <ul>
-        <li>
+        <li class="list-contacts">
           <a href="mailto:info@devstudio.com">
             info@devstudio.com
           </a>
         </li>
-        <li>
+        <li class="list-contacts">
           <a href="tel:+380961111111">
             +38 096 111 11 11
           </a>
@@ -40,16 +52,16 @@
     <main>
       <!--Hero block div, image and section (text and button)-->
       <div>
-        <section>
+        <section class="hero">
           <h1>
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button>Заказать услугу</button>
+          <button class="hero-button">Заказать услугу</button>
         </section>
       </div>
       <!--Section advantage block-->
-      <section>
+      <section class="advantage">
         <ul>
           <li>
             <h3>Внимание к деталям</h3>
@@ -112,7 +124,7 @@
         </ul>
       </section>
       <!--Our team block-->
-      <section>
+      <section class="team">
         <h2>Наша команда</h2>
         <ul>
           <li>
@@ -141,11 +153,12 @@
     </main>
     <footer>
       <!--Logo links in the header-->
-      <a href="/">
-        <p><span>Web</span>Studio</p>
-      </a>
-      <address>
-        г. Киев, Бульвар Леси Украинки, 26 <br />
+        <a href="/">
+          <p class="logodown">
+            <span class="logo-blue">Web</span><span class="logo-white">Studio</span>
+          </p>
+      <address class="adr">
+        <span>г. Киев, Бульвар Леси Украинки, 26</span> <br />
         <a href="mailto:info@example.com">
           info@example.com
         </a>
