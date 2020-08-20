@@ -52,7 +52,7 @@ address {
   letter-spacing: 0.03em;
 }
 /*Logo style*/
-.logo {
+p.logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -61,7 +61,7 @@ address {
   letter-spacing: 0.03em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.logodown {
+p.logodown {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -69,13 +69,13 @@ address {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-.logo-blue {
+span.logo-blue {
   color: var(--Logo-blue-color);
 }
-.logo-black {
+span.logo-black {
   color: var(--Logo-black-color);
 }
-.logo-white {
+span.logo-white {
   color: var(--Logo-white-color);
 }
 .list > a {
